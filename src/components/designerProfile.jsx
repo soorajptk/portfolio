@@ -6,7 +6,7 @@ export const DesignerProfile = () => {
     <div>
       <div className="flex flex-col md:flex-row px-4 md:px-0 gap-[1.5rem] items-center justify-between pt-2 pb-[1.2rem]">
         <img
-          className="md:w-[12.125rem] 2xl:w-[35.25rem] 4k:w-[42.875rem] 4k:h-[42.875rem] 2xl:h-[35.25rem] md:h-[12.125rem] object-fill"
+          className="md:w-[12.125rem]  2xl:w-[35.25rem] 4k:w-[42.875rem] 4k:h-[42.875rem] 2xl:h-[35.25rem] md:h-[12.125rem] object-fill"
           src={dpImg}
           alt="designer profile"
         />

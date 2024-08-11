@@ -1,8 +1,8 @@
 import BlackmagicImg from '../assets/cpBg.png'
 export const ColouristProfile = () => {
   return (
-    <div className='flex flex-col pt-2 2xl:pt-4 md:flex-row justify-between gap-[1.5rem] md:gap-[2.188rem]'>
-      <div className='rounded-xl opacity-[0.9] 2xl:w-[53.25rem] 2xl:h-[42.375rem]  md:w-[20.75rem] md:h-[16.5rem]'>
+    <div className='flex flex-col pt-2 2xl:pt-4 lg:flex-row justify-between gap-[1.5rem] md:gap-[2.188rem]'>
+      <div className='rounded-xl h-[14.625rem]  md:mx-auto opacity-[0.9] 2xl:w-[53.25rem] 2xl:h-[42.375rem]  md:w-[20.75rem] md:h-[16.5rem]'>
         <img src={BlackmagicImg} alt="blackmagic certificate" className='w-full h-full object-fill' />
       </div>
       <div className='flex-1 flex items-center rounded-xl backdrop-blur-md bg-white/15 p-[1.5rem] sm:p-[2.25rem]'>
