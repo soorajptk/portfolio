@@ -5,7 +5,7 @@ export const SocialIcons = () => {
     <div className="backdrop-blur-md bg-white/15 h-[5.875rem] 4k:h-[8rem] flex items-center">
       <div className="max-w-[65%] lg:max-w-[55%] mx-auto flex justify-between items-center w-full">
         <a
-          href="https://wa.me/qr/3KOXVMX5BQQFP1"
+          href={import.meta.env.VITE_WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -76,7 +76,7 @@ export const SocialIcons = () => {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/pranav-sai-das/"
+          href={import.meta.env.VITE_LINKEDIN_URL}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -126,7 +126,7 @@ export const SocialIcons = () => {
           </svg>
         </a>
         <a
-          href="https://www.instagram.com/pranavsaidas_colorist?igsh=MXZ3OGcxZng4d2x0OQ=="
+          href={import.meta.env.VITE_INSTAGRAM_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center"
