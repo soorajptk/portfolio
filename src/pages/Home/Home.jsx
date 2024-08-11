@@ -4,7 +4,7 @@ import { ProfileCard } from '../../components/profileCard'
 import { Awards } from '../../components/awards'
 import { GifPlayer } from '../../components/gifPlayer'
 import gifOne from "../../assets/IMG_0285.gif";
-import gifTwo from "../../assets/IMG_0286.gif";
+import gifTwo from "../../assets/dis_port.gif";
 import dpImg from "../../assets/cp.png";
 import cpImg from "../../assets/dp.png";
 
