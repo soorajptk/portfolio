@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="text-light-gray 2xl:text-[4.688rem] 4k:text-[5.063rem] text-[1.5rem] sm:text-[1.875rem] font-bold">
           <Link to="/">Pranav Sai Das</Link>
         </div>
-        <div className="space-x-4 2xl:space-x-[3.688rem] 4k:space-x-[3.438rem] hidden lg:block">
+        <div className="space-x-4 lg:space-x-[1.688rem] 2xl:space-x-[3.688rem] 4k:space-x-[3.438rem] hidden lg:block">
           {navItems?.map(({ label, to }) => (
             <NavLink
               key={label}
