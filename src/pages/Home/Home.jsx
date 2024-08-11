@@ -14,7 +14,7 @@ export const Home = () => {
       <Navbar/>
       <ProfileCard/>
       <Awards/>
-      <div className='flex flex-col md:flex-row py-[2.063rem] 4k:pt-[3.75rem] 4k:gap-[2.5rem] gap-[1.375rem]'>
+      <div className='flex flex-col md:flex-row py-[1.1rem] 4k:pt-[3.75rem] 4k:gap-[2.5rem] gap-[1.1rem]'>
        <GifPlayer path='/designer' image={dpImg} gif={gifTwo}/>
        <GifPlayer path='/colourist' image={cpImg} gif={gifOne}/>
       </div>
