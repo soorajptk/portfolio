@@ -10,7 +10,7 @@ export const ProfileCard = () => {
     <div className="flex py-2 md:py-6 4k:py-[2.5rem] gap-6 md:gap-16 lg:gap-28 items-center flex-col lg:flex-row">
       <div className="w-[17.304rem] 4k:w-[49.625rem] 4k:h-[43.438rem] 2xl:w-[39.539rem] 2xl:h-[36.739rem] h-[15.034rem] sm:w-[20.791rem] sm:h-[18.361rem] lg:w-[24.279rem]  lg:h-[21.688rem]">
         <img
-          className="w-full h-full  object-cover rounded-[1rem] lg:rounded-[4rem]"
+          className="w-full h-full   object-cover rounded-[1rem] lg:rounded-[4rem]"
           src={pranavImg}
           alt="Pranav"
         />
