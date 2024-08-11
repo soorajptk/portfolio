@@ -22,6 +22,7 @@ export const ImageSlider = ({images}) => {
         className="md:h-[29.778rem] 2xl:h-full"
         style={{ width: '100%',borderRadius:'1.563rem' }}
         position={7}
+        onlyHandleDraggable={true}
       />
     </div>
   )
