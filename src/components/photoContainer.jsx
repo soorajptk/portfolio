@@ -54,16 +54,16 @@ export const PhotoContainer = () => {
   ];
   return (
     <div>
-      <div className="flex  px-4 md:px-0 flex-col gap-[1.2rem]">
+      <div className="flex  px-4 md:px-0 flex-col gap-[1.2rem] 4k:pb-20">
         {images?.map((item) => (
           <img
             key={item.alt}
-            className="object-cover w-full"
+            className="object-cover  w-full"
             src={item.image}
             alt={item.alt}
           />
         ))}
-        <div className="pb-14">
+        <div className="pb-14 ">
           <h2 className="text-center pt-6 pb-10 w-full relative leading-[80.28%] font-bold  text-transparent !bg-clip-text [background:linear-gradient(90deg,_#B6B0B0_0.01%,_#504D4D_134.95%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] max-w-full text-[3.25rem] ">
             Other Works
           </h2>

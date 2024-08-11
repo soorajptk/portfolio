@@ -82,16 +82,16 @@ export const ImageSliderWrapper = () => {
      window.open(url, "_blank",'noopener,noreferrer');
   };
   return (
-    <div className="pb-20">
+    <div className="pb-20 2xl:pb-36 4k:pt-6">
       {arrayofShortFilims?.map(({ title, images, released,url}) => (
         <div
           key={title}
           className="flex justify-center items-center flex-col pt-8"
         >
-          <h2 className="relative leading-[1.723rem] sm:leading-[80.28%] font-bold inline-block text-transparent !bg-clip-text [background:linear-gradient(90deg,_#B6B0B0_0.01%,_#504D4D_134.95%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] max-w-full text-[1.5rem] sm:text-[3.25rem] ">
+          <h2 className="relative 4k:text-[5.5rem] leading-[1.723rem] sm:leading-[80.28%] font-bold inline-block text-transparent !bg-clip-text [background:linear-gradient(90deg,_#B6B0B0_0.01%,_#504D4D_134.95%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] max-w-full text-[1.5rem] sm:text-[3.25rem] ">
             {title}
           </h2>
-          <h4 className="relative leading-[0.551rem] sm:leading-[2.875rem] text-transparent text-[0.5rem] sm:text-[1.25rem] font-bold inline-block py-2 !bg-clip-text [background:linear-gradient(90deg,_#B6B0B0_0.01%,_#504D4D_134.95%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] max-w-full">
+          <h4 className="relative 4k:text-[1.5rem] leading-[0.551rem] sm:leading-[2.875rem] text-transparent text-[0.5rem] sm:text-[1.25rem] font-bold inline-block py-2 !bg-clip-text [background:linear-gradient(90deg,_#B6B0B0_0.01%,_#504D4D_134.95%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] max-w-full">
             ( SWIPE TO SEE THE GRADE )
           </h4>
           <div className="flex flex-col gap-6 w-full">

@@ -34,12 +34,12 @@ export const GifPlayer = ({ gif, image, path }) => {
   return (
     <div
       onClick={() => navigate(path)}
-      className="md:w-[31.063rem] md:h-[17.375rem] relative cursor-pointer"
+      className="md:w-[31.063rem] 4k:w-[77.063rem] 4k:h-[42.813rem] md:h-[17.375rem] 2xl:w-[64.188rem] 2xl:h-[35.625rem] relative cursor-pointer"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       <img
-        src={isHovered || windowSize?.width<767 ? gif : image}
+        src={isHovered || windowSize?.width<1024 ? gif : image}
         alt="Hover to animate"
         className="w-full rounded-[1rem] h-full object-cover overflow-hidden"
       />

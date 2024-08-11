@@ -19,7 +19,7 @@ export const ImageSlider = ({images}) => {
             alt="Image two"
           />
         }
-        className="md:h-[29.778rem]"
+        className="md:h-[29.778rem] 2xl:h-full"
         style={{ width: '100%',borderRadius:'1.563rem' }}
         position={7}
       />

@@ -25,16 +25,16 @@ const Navbar = () => {
   return (
     <nav className="py-7 ">
       <div className="flex  flex-row items-center justify-between text-left  gap-[1.687rem]">
-        <div className="text-light-gray text-[1.5rem] sm:text-[1.875rem] font-bold">
+        <div className="text-light-gray 2xl:text-[4.688rem] 4k:text-[5.063rem] text-[1.5rem] sm:text-[1.875rem] font-bold">
           <Link to="/">Pranav Sai Das</Link>
         </div>
-        <div className="space-x-4 hidden lg:block">
+        <div className="space-x-4 2xl:space-x-[3.688rem] 4k:space-x-[3.438rem] hidden lg:block">
           {navItems?.map(({ label, to }) => (
             <NavLink
               key={label}
               to={to}
               className={({ isActive }) =>
-                ` font-semibold text-3xl ${
+                ` font-semibold text-3xl 2xl:text-[2.875rem] 4k:text-[2.938rem] ${
                   isActive ? "text-light-gray" : "text-dark-gray"
                 }`
               }
@@ -123,6 +123,7 @@ const Navbar = () => {
                 <Link
                   onClick={() => setSidebarOpen((pre) => !pre)}
                   to={to}
+                  className="w-full text-center"
                 >
                   {label}
                 </Link>

@@ -8,7 +8,7 @@ export default {
         outfit: ["Outfit", "sans-serif"],
       },
       backgroundImage: {
-        'custom-bg': "url('/images/bg.png')",
+        "custom-bg": "url('/images/bg.png')",
       },
       colors: {
         "light-gray": "#D3D3D3",
@@ -53,21 +53,29 @@ export default {
         "11xl": "1.875rem",
         inherit: "inherit",
       },
-
+      height: {
+        'custom': 'calc(100vh - 188px)',
+        'height-high': 'calc(100vh - 245px)',
+        'height-4k':'calc(100vh - 285px)'
+      },
       container: {
         center: true, // Center the container horizontally
         padding: {
           DEFAULT: "1rem", // Set default padding
         },
-        screens: {
-          sm: "640px", // Custom small breakpoint
-          md: "768px", // Custom medium breakpoint
-          lg: "1024px", // Custom large breakpoint
-          xl: "1280px", // Custom extra-large breakpoint
-        },
+      },
+      screens: {
+        sm: "640px", // Custom small breakpoint
+        md: "768px", // Custom medium breakpoint
+        lg: "1024px", // Custom large breakpoint
+        xl: "1280px", // Custom extra-large breakpoint
+        "2xl": "2560px",
+        '4k':"3840px"
       },
       maxWidth: {
         custom: "65.5rem",
+        '2xl':'130.625rem',
+        '4k':'157.125rem'
       },
     },
   },
