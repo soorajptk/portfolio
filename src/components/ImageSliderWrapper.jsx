@@ -109,7 +109,7 @@ export const ImageSliderWrapper = () => {
                   <img
                   key={ind}
                   alt={title}
-                  className="rounded-[1.563rem]"
+                  className="rounded-[1.563rem] w-full"
                   src={`/images/${item}`}
                 />
                 </div>
