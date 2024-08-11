@@ -34,7 +34,7 @@ const Navbar = () => {
               key={label}
               to={to}
               className={({ isActive }) =>
-                ` font-semibold text-3xl 2xl:text-[2.875rem] 4k:text-[2.938rem] ${
+                ` font-semibold text-3xl 2xl:text-[2.875rem] hover:text-light-gray 4k:text-[2.938rem] ${
                   isActive ? "text-light-gray" : "text-dark-gray"
                 }`
               }
