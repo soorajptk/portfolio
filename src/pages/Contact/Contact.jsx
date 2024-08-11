@@ -67,7 +67,7 @@ export const Contact = () => {
   });
   return (
     <>
-      <div className="container  4k:max-w-4k  2xl:max-w-2xl max-w-custom mx-auto h-full">
+      <div className="container px-[1.8rem] md:px-[1rem]  4k:max-w-4k  2xl:max-w-2xl max-w-custom mx-auto h-full">
         <Navbar />
         <div className="max-w-[29.75rem] h-height-lg lg:h-custom 2xl:h-height-high 4k:h-height-4k 2xl:max-w-[96.75rem] px-3 md:px-0 flex flex-col justify-center items-center mx-auto ">
           <h2 className="text-[#D5D5D5] 2xl:text-[5rem] pb-[1rem] text-center font-bold leading-[120%] text-[2rem]">

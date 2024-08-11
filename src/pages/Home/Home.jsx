@@ -10,7 +10,7 @@ import cpImg from "../../assets/dp.png";
 
 export const Home = () => {
   return (
-    <div className="container max-w-custom 2xl:max-w-2xl 4k:max-w-4k mx-auto px-[2.219rem] md:px-[1rem]">
+    <div className="container max-w-custom 2xl:max-w-2xl 4k:max-w-4k mx-auto px-[1.8rem] md:px-[1rem]">
       <Navbar/>
       <ProfileCard/>
       <Awards/>

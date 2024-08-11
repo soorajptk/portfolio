@@ -64,7 +64,7 @@ export const PhotoContainer = () => {
           />
         ))}
         <div className="pb-14 ">
-          <h2 className="text-center pt-6 pb-10 w-full relative leading-[80.28%] font-bold  text-transparent !bg-clip-text [background:linear-gradient(90deg,_#B6B0B0_0.01%,_#504D4D_134.95%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] max-w-full text-[3.25rem] ">
+          <h2 className="text-center text-[1.5rem] pt-6 pb-10 w-full relative leading-[80.28%] font-bold  text-transparent !bg-clip-text [background:linear-gradient(90deg,_#B6B0B0_0.01%,_#504D4D_134.95%)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] max-w-full sm:text-[3.25rem] ">
             Other Works
           </h2>
           <img
