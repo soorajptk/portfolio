@@ -56,7 +56,8 @@ export default {
       height: {
         'custom': 'calc(100vh - 188px)',
         'height-high': 'calc(100vh - 245px)',
-        'height-4k':'calc(100vh - 285px)'
+        'height-4k':'calc(100vh - 285px)',
+        'height-lg':'calc(100vh - 180px)'
       },
       container: {
         center: true, // Center the container horizontally
